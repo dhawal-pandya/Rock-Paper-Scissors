@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body class="bg-gray-800 text-white min-h-screen flex flex-col items-center justify-center">
+    <h1 class="absolute top-4 text-3xl mb-6">Rock Paper Scissors</h1>
+
+    <div class="bg-gray-900 p-6 w-full lg:w-4/5 border-solid border-2 rounded-lg shadow-lg text-center mb-6">
+        <div class="flex justify-around mb-6">
+            <button id="rock" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Rock</button>
+            <button id="paper" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Paper</button>
+            <button id="scissors" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Scissors</button>
+        </div>
+        <p id="result" class="text-2xl"></p>
+    </div>
+
+    <div class="bg-gray-900 p-6 rounded-lg shadow-lg text-center w-full flex justify-around">
+        <div>
+            <h2 class="text-xl">User Wins</h2>
+            <div id="userCounter" class="text-3xl">0</div>
+        </div>
+        <div>
+            <h2 class="text-xl">Computer Wins</h2>
+            <div id="computerCounter" class="text-3xl">0</div>
+        </div>
+    </div>
+
+    <div class="absolute bottom-1">Made with ❤️ by <a href="https://dhawal-pandya.github.io" target="_blank">Dhawal</a> 
+    </div>
+
+    <button id="toggleMode" class="hidden">
+real    </button>
+</body>
+</html>
