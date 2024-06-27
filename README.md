@@ -12,8 +12,7 @@ This project is a simple implementation of the classic game "Rock Paper Scissors
 
 ## Screenshots
 
-![Screenshot 1](images/screenshot1.png)
-![Screenshot 2](images/screenshot2.png)
+![Screenshot 1](https://github.com/dhawal-pandya/Rock-Paper-Scissors/blob/main/assets/rps.png)
 
 ## Installation
 
@@ -29,7 +28,3 @@ This project is a simple implementation of the classic game "Rock Paper Scissors
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
